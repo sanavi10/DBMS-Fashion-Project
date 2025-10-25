@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customers | Fashion Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>👗 Fashion Store</header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="customers.html">Customers</a>
+    <a href="products.html">Products</a>
+    <a href="orders.html">Orders</a>
+  </nav>
+
+  <div class="container">
+    <h2>Customer List</h2>
+    <button onclick="loadCustomers()">Load Customers</button>
+    <table border="1" cellpadding="8" cellspacing="0" width="100%" id="customerTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <h3>Add New Customer</h3>
+    <input type="number" id="custID" placeholder="Customer ID">
+    <input type="text" id="custName" placeholder="Name">
+    <input type="email" id="custEmail" placeholder="Email">
+    <input type="text" id="custPhone" placeholder="Phone">
+    <input type="text" id="custAddress" placeholder="Address">
+    <button onclick="addCustomer()">Add</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

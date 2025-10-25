@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orders | Fashion Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>👗 Fashion Store</header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="customers.html">Customers</a>
+    <a href="products.html">Products</a>
+    <a href="orders.html">Orders</a>
+  </nav>
+
+  <div class="container">
+    <h2>Orders</h2>
+    <button onclick="loadOrders()">Load Orders</button>
+    <table border="1" cellpadding="8" cellspacing="0" width="100%" id="orderTable">
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>Date</th>
+          <th>Customer ID</th>
+          <th>Total Amount</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

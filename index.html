@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fashion Store | H&M Inspired</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🧭 HEADER SECTION -->
+  <header class="navbar">
+    <div class="logo">Fashion<span>Store</span></div>
+    <nav>
+      <ul class="nav-links">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#categories">Categories</a></li>
+  <li><a href="#products">Products</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="order.html">Place Order</a></li>
+  <li><a href="signup.html">Sign Up</a></li>  <!-- Added Signup link -->
+</ul>
+
+    </nav>
+  </header>
+
+  <!-- 🏠 HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Redefine Your Style</h1>
+      <p>Discover the latest trends in clothing, shoes, and accessories.</p>
+      <button class="shop-btn" onclick="window.location.href='order.html'">Shop Now</button>
+      <button class="shop-btn" onclick="window.location.href='order.html'">Place Order</button>
+      <button class="shop-btn" onclick="window.location.href='signup.html'">Sign Up</button>
+
+    </div>
+  </section>
+
+  <!-- 🧺 CATEGORY SECTION -->
+  <section id="categories" class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <img src="https://image.hm.com/assets/hm/78/ea/78ea771cef79ab6643a3dd8d59ba46edd252466b.jpg?imwidth=657" alt="Clothing" />
+        <h3>Clothing</h3>
+      </div>
+      <div class="category-card">
+        <img src="https://image.hm.com/assets/hm/e1/63/e163cde4909fcc7bc2fa56c3e95654068150cbba.jpg?imwidth=657" alt="Shoes" />
+        <h3>Shoes</h3>
+      </div>
+      <div class="category-card">
+        <img src="https://image.hm.com/assets/hm/8e/87/8e8732f0609125c9fab100381e705f12de4de19d.jpg?imwidth=657" alt="Accessories" />
+        <h3>Accessories</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- 👕 PRODUCT SECTION -->
+  <section id="products" class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid" id="product-list">
+      <!-- Products will be added dynamically using JS -->
+    </div>
+  </section>
+
+  <!-- 📞 CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us via email or phone.</p>
+    <p>Email: <a href="mailto:support@fashionstore.com">support@fashionstore.com</a></p>
+    <p>Phone: +91 98765 43210</p>
+  </section>
+
+  <!-- ⚙️ FOOTER SECTION -->
+  <footer class="footer">
+    <p>&copy; 2025 FashionStore</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
